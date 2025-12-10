@@ -1,0 +1,12 @@
+- Scenario:
+  - We have a relational DBMS (e.g., PostgreSQL, MySQL).
+  - We have a table Users with columns: id (primary key), name, email.
+  - The table contains 10M users.
+  - We execute a lookup query to find a user by id. The application does not validate input, so the id parameter can be any arbitrary string (empty and null included).
+  - Question: What will be the performance implications of this query?, will the primary key index be used effectively?, and how can we optimize the query performance?
+    - Answer:
+      - Primary Key Index Usage:
+        - The primary key index will be used effectively only when the id parameter is of the correct type (e.g., integer) and matches existing values in the table.
+        - For invalid inputs (empty, null, non-integer), the index may not be utilized, resulting in degraded performance.
+      - Optimization Strategies:
+        - Input Validation: Implement input validation at the application level to ensure that only valid id values are passed to the query. This prevents invalid inputs from reaching the database.
