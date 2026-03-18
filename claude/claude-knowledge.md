@@ -20,3 +20,15 @@ Claude manages 3 memory files to keep the context of the project:
 
 ### Resume a previous session
 `/resume`
+
+### Planning
+`shift + tab`
+- Use it for task with wider scope
+
+### Thinking
+- Use the planning mode and use the word "Think" at the start of your prompt.
+- If you need deeper analysis, use the word "Deep Think" or "Think more" at the start of your prompt.
+- Use it for task with narrow scope but requires deep analysis. Each of the previous modes can consume many tokens, so use them wisely.
+
+### IntelliJ integration
+- /ide
