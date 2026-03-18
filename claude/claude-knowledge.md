@@ -21,6 +21,9 @@ Claude manages 3 memory files to keep the context of the project:
 ### Resume a previous session
 `/resume`
 
+### Rename a session
+`/rename`
+
 ### Planning
 `shift + tab`
 - Use it for task with wider scope
