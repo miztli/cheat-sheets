@@ -1,0 +1,1 @@
+Algorithms (time, memory complexities, pros/cons): binary tree traversal (Depth/Breadth First Search), standard sortings in the language (stable/not stable), binary search.
