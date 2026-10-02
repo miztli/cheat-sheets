@@ -11,4 +11,4 @@
 `Analogy: ` 
 - If a pipe's diameter is the bandwidth, the water flowing out is the real throughput.
 - A 100 Mbps internet plan (bandwidth) might only give you 70 Mbps of actual download speed (throughput)
-- Throughput is almost always lower than or equal to bandwidth.[brand-productListingResults-64.json](../../../../../ulta/tickets/nabolt-1619--poc-product-listing-results/brand-productListingResults-64.json)[brand-productListingResults-64.json](../../../../../ulta/tickets/nabolt-1619--poc-product-listing-results/brand-productListingResults-64.json)
+- Throughput is almost always lower than or equal to bandwidth.[brand-productListingResults-64.json](../../../../ulta/tickets/nabolt-1619--poc-product-listing-results/brand-productListingResults-64.json)[brand-productListingResults-64.json](../../../../ulta/tickets/nabolt-1619--poc-product-listing-results/brand-productListingResults-64.json)
